@@ -19,18 +19,6 @@ body {
     max-width: 60%;
 }
 
-@media screen and (min-width: 980px) {
-    .wrapper {
-        margin-right:40%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    #my-pic {
-        max-width: 100%;
-    }
-}
-
 .my-brand {
     display: block;
     background-color:rgb(74, 192, 188);
@@ -38,6 +26,11 @@ body {
     color: whitesmoke;
     margin: 0;
     margin-left: 5%;
+}
+
+.first-row {
+    color: rgb(74, 192, 188);
+    font-weight: 600;
 }
 
 #my-list-wrapper {
@@ -58,17 +51,6 @@ ul#my-list li {
     font-size: large;
 }
 
-@media screen and (max-width: 640px) {
-    #my-list-wrapper {
-        width: 100%;
-    }
-
-    .my-brand {
-        width: 100%;
-        margin-left: 0;
-    }
-}
-
 #submit-button {
     background-color:  rgb(74, 192, 188);
     color: whitesmoke;
@@ -84,4 +66,27 @@ footer {
     border-top-color: rgb(74, 192, 188);
     border-top-width: 2px;
     border-top-style: solid;
+}
+
+@media screen and (min-width: 980px) {
+    .wrapper {
+        margin-right:40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #my-pic {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #my-list-wrapper {
+        width: 100%;
+    }
+
+    .my-brand {
+        width: 100%;
+        margin-left: 0;
+    }
 }
