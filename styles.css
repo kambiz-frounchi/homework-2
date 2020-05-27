@@ -1,0 +1,30 @@
+body {
+    background-color:lightgray;
+}
+.wrapper {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20%;
+    background-color: white;
+    padding: 5%;
+}
+
+#my-pic {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 60%;
+}
+
+@media screen and (min-width: 980px) {
+    .wrapper {
+        margin-right:40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #my-pic {
+        max-width: 100%;
+    }
+}
